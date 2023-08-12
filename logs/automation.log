@@ -49,3 +49,13 @@
 11:34:50.602 [main] INFO  testCases.TC_004a_DataDrivenLogin2 - ****** Starting Data Driven Login Test ************
 11:34:52.933 [main] INFO  testCases.TC_004a_DataDrivenLogin2 - ****** Starting Data Driven Login Test ************
 11:34:54.658 [main] INFO  testCases.TC_004a_DataDrivenLogin2 - ****** Starting Data Driven Login Test ************
+13:50:47.828 [main] INFO  testCases.TC_001_CheckRegistration - ***** Starting TC_001_CheckRegistration ******** 
+13:50:49.219 [main] INFO  testCases.TC_001_CheckRegistration - Test Execution complete
+13:51:06.960 [main] INFO  testCases.TC_004a_DataDrivenLogin2 - ****** Starting Data Driven Login Test ************
+13:51:09.114 [main] INFO  testCases.TC_004a_DataDrivenLogin2 - ****** Starting Data Driven Login Test ************
+13:51:10.704 [main] INFO  testCases.TC_004a_DataDrivenLogin2 - ****** Starting Data Driven Login Test ************
+13:51:12.222 [main] INFO  testCases.TC_004a_DataDrivenLogin2 - ****** Starting Data Driven Login Test ************
+13:51:13.239 [main] INFO  testCases.TC_004a_DataDrivenLogin2 - ****** Starting Data Driven Login Test ************
+13:51:15.826 [main] INFO  testCases.TC_004a_DataDrivenLogin2 - ****** Starting Data Driven Login Test ************
+13:51:17.388 [main] INFO  testCases.TC_004a_DataDrivenLogin2 - ****** Starting Data Driven Login Test ************
+13:51:18.360 [main] INFO  testCases.TC_004a_DataDrivenLogin2 - ****** Starting Data Driven Login Test ************
