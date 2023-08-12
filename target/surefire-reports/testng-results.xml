@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-12T11:34:15 IST" name="DemoBlazeSuite" finished-at="2023-08-12T11:34:35 IST" duration-ms="19935">
+    <groups>
+      <group name="Master">
+        <method signature="TC_003_PlaceOrder.test_Login()[pri:0, instance:testCases.TC_003_PlaceOrder@293a5bf6]" name="test_Login" class="testCases.TC_003_PlaceOrder"/>
+        <method signature="TC_003_PlaceOrder.addToCart()[pri:0, instance:testCases.TC_003_PlaceOrder@293a5bf6]" name="addToCart" class="testCases.TC_003_PlaceOrder"/>
+        <method signature="TC_001_CheckRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_CheckRegistration@72967906]" name="test_account_Registration" class="testCases.TC_001_CheckRegistration"/>
+        <method signature="TC_002_CheckLogin.test_Login()[pri:0, instance:testCases.TC_002_CheckLogin@7d8995e]" name="test_Login" class="testCases.TC_002_CheckLogin"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_001_CheckRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_CheckRegistration@72967906]" name="test_account_Registration" class="testCases.TC_001_CheckRegistration"/>
+        <method signature="TC_002_CheckLogin.test_Login()[pri:0, instance:testCases.TC_002_CheckLogin@7d8995e]" name="test_Login" class="testCases.TC_002_CheckLogin"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_003_PlaceOrder.test_Login()[pri:0, instance:testCases.TC_003_PlaceOrder@293a5bf6]" name="test_Login" class="testCases.TC_003_PlaceOrder"/>
+        <method signature="TC_003_PlaceOrder.addToCart()[pri:0, instance:testCases.TC_003_PlaceOrder@293a5bf6]" name="addToCart" class="testCases.TC_003_PlaceOrder"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-08-12T11:34:15 IST" name="DemoBlazeTest" finished-at="2023-08-12T11:34:35 IST" duration-ms="19935">
+      <class name="testCases.TC_001_CheckRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_CheckRegistration@72967906]" started-at="2023-08-12T11:34:15 IST" name="setup" finished-at="2023-08-12T11:34:19 IST" duration-ms="4267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_CheckRegistration@72967906]" started-at="2023-08-12T11:34:19 IST" name="test_account_Registration" finished-at="2023-08-12T11:34:21 IST" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_CheckRegistration@72967906]" started-at="2023-08-12T11:34:21 IST" name="tearDown" finished-at="2023-08-12T11:34:21 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_CheckRegistration -->
+      <class name="testCases.TC_002_CheckLogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_CheckLogin@7d8995e]" started-at="2023-08-12T11:34:21 IST" name="setup" finished-at="2023-08-12T11:34:24 IST" duration-ms="2356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_CheckLogin@7d8995e]" started-at="2023-08-12T11:34:24 IST" name="test_Login" finished-at="2023-08-12T11:34:26 IST" duration-ms="2510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_CheckLogin@7d8995e]" started-at="2023-08-12T11:34:26 IST" name="tearDown" finished-at="2023-08-12T11:34:26 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_CheckLogin -->
+      <class name="testCases.TC_003_PlaceOrder">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_PlaceOrder@293a5bf6]" started-at="2023-08-12T11:34:26 IST" name="setup" finished-at="2023-08-12T11:34:28 IST" duration-ms="2170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:testCases.TC_003_PlaceOrder@293a5bf6]" started-at="2023-08-12T11:34:28 IST" name="test_Login" finished-at="2023-08-12T11:34:31 IST" duration-ms="2719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method signature="addToCart()[pri:0, instance:testCases.TC_003_PlaceOrder@293a5bf6]" started-at="2023-08-12T11:34:31 IST" name="addToCart" finished-at="2023-08-12T11:34:35 IST" depends-on-methods="testCases.TC_003_PlaceOrder.test_Login" duration-ms="3481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="placeOrder()[pri:0, instance:testCases.TC_003_PlaceOrder@293a5bf6]" started-at="2023-08-12T11:34:35 IST" name="placeOrder" finished-at="2023-08-12T11:34:35 IST" depends-on-methods="testCases.TC_003_PlaceOrder.addToCart, testCases.TC_003_PlaceOrder.test_Login" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_PlaceOrder@293a5bf6]" started-at="2023-08-12T11:34:35 IST" name="tearDown" finished-at="2023-08-12T11:34:35 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_003_PlaceOrder -->
+    </test> <!-- DemoBlazeTest -->
+  </suite> <!-- DemoBlazeSuite -->
+  <suite started-at="2023-08-12T11:34:35 IST" name="DemoBlazeSuite (0)" finished-at="2023-08-12T11:34:57 IST" duration-ms="21868">
+    <groups>
+    </groups>
+    <test started-at="2023-08-12T11:34:35 IST" name="DataDrivenTest" finished-at="2023-08-12T11:34:57 IST" duration-ms="21868">
+      <class name="testCases.TC_004a_DataDrivenLogin2">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@30c15d8b]" started-at="2023-08-12T11:34:35 IST" name="setup" finished-at="2023-08-12T11:34:38 IST" duration-ms="2747" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@30c15d8b]" started-at="2023-08-12T11:34:39 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-12T11:34:41 IST" duration-ms="2294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alexander555]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chandi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@30c15d8b]" started-at="2023-08-12T11:34:41 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-12T11:34:43 IST" duration-ms="1899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Surya555]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@30c15d8b]" started-at="2023-08-12T11:34:43 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-12T11:34:45 IST" duration-ms="1856" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RohitS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IPL5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@30c15d8b]" started-at="2023-08-12T11:34:45 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-12T11:34:47 IST" duration-ms="1753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Halwa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Puri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@30c15d8b]" started-at="2023-08-12T11:34:47 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-12T11:34:50 IST" duration-ms="3160" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhoti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@30c15d8b]" started-at="2023-08-12T11:34:50 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-12T11:34:52 IST" duration-ms="2329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kaala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jamun]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@30c15d8b]" started-at="2023-08-12T11:34:52 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-12T11:34:54 IST" duration-ms="1725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Captain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deadpool]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@30c15d8b]" started-at="2023-08-12T11:34:54 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-12T11:34:57 IST" duration-ms="2711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kaaju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Katli]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@30c15d8b]" started-at="2023-08-12T11:34:57 IST" name="tearDown" finished-at="2023-08-12T11:34:57 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_004a_DataDrivenLogin2 -->
+    </test> <!-- DataDrivenTest -->
+  </suite> <!-- DemoBlazeSuite (0) -->
+</testng-results>

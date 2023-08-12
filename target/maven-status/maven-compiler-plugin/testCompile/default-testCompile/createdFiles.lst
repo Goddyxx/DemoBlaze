@@ -1,0 +1,14 @@
+testCases\TC_001_CheckRegistration.class
+testCases\TC_004a_DataDrivenLogin2.class
+testCases\TC_004_DataDrivenLogin.class
+testBase\BaseTestClass.class
+testCases\TC_003_PlaceOrder.class
+Utilities\DataProviderUtility.class
+Utilities\ExcelUtility.class
+pageObjects\CartPageObjects.class
+pageObjects\BasePage.class
+testCases\TC_002_CheckLogin.class
+pageObjects\AddPageObjects.class
+pageObjects\HomePageObjects.class
+pageObjects\LoginPageObjects.class
+Utilities\ExtentReportManager.class
