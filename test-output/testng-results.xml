@@ -1,353 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-12T10:50:16 IST" name="DemoBlazeSuite" finished-at="2023-08-12T10:50:16 IST" duration-ms="98">
+  <suite started-at="2023-08-15T11:26:46 IST" name="DemoBlazeSuite" finished-at="2023-08-15T11:27:04 IST" duration-ms="18250">
     <groups>
-      <group name="Master">
-        <method signature="TC_003_PlaceOrder.test_Login()[pri:0, instance:testCases.TC_003_PlaceOrder@1ff4931d]" name="test_Login" class="testCases.TC_003_PlaceOrder"/>
-        <method signature="TC_003_PlaceOrder.addToCart()[pri:0, instance:testCases.TC_003_PlaceOrder@1ff4931d]" name="addToCart" class="testCases.TC_003_PlaceOrder"/>
-        <method signature="TC_001_CheckRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_CheckRegistration@7a8c8dcf]" name="test_account_Registration" class="testCases.TC_001_CheckRegistration"/>
-        <method signature="TC_002_CheckLogin.test_Login()[pri:0, instance:testCases.TC_002_CheckLogin@45c7e403]" name="test_Login" class="testCases.TC_002_CheckLogin"/>
-      </group> <!-- Master -->
-      <group name="Sanity">
-        <method signature="TC_001_CheckRegistration.test_account_Registration()[pri:0, instance:testCases.TC_001_CheckRegistration@7a8c8dcf]" name="test_account_Registration" class="testCases.TC_001_CheckRegistration"/>
-        <method signature="TC_002_CheckLogin.test_Login()[pri:0, instance:testCases.TC_002_CheckLogin@45c7e403]" name="test_Login" class="testCases.TC_002_CheckLogin"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="TC_003_PlaceOrder.test_Login()[pri:0, instance:testCases.TC_003_PlaceOrder@1ff4931d]" name="test_Login" class="testCases.TC_003_PlaceOrder"/>
-        <method signature="TC_003_PlaceOrder.addToCart()[pri:0, instance:testCases.TC_003_PlaceOrder@1ff4931d]" name="addToCart" class="testCases.TC_003_PlaceOrder"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2023-08-12T10:50:16 IST" name="DemoBlazeTest" finished-at="2023-08-12T10:50:16 IST" duration-ms="98">
-      <class name="testCases.TC_001_CheckRegistration">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_001_CheckRegistration@7a8c8dcf]" started-at="2023-08-12T10:50:16 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691817616843" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test started-at="2023-08-15T11:26:46 IST" name="DataDrivenTest" finished-at="2023-08-15T11:27:04 IST" duration-ms="18250">
+      <class name="testCases.TC_004a_DataDrivenLogin2">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@fbd1f6]" started-at="2023-08-15T11:26:46 IST" name="setup" finished-at="2023-08-15T11:26:49 IST" duration-ms="3430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_CheckRegistration@7a8c8dcf]" started-at="2023-08-12T10:50:16 IST" name="test_account_Registration" finished-at="2023-08-12T10:50:16 IST" duration-ms="1" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@fbd1f6]" started-at="2023-08-15T11:26:50 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-15T11:26:52 IST" duration-ms="2096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alexander555]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chandi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_CheckRegistration@7a8c8dcf]" started-at="2023-08-12T10:50:16 IST" name="tearDown" finished-at="2023-08-12T10:50:16 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@fbd1f6]" started-at="2023-08-15T11:26:52 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-15T11:26:54 IST" duration-ms="1314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Surya555]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_001_CheckRegistration -->
-      <class name="testCases.TC_002_CheckLogin">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_CheckLogin@45c7e403]" started-at="2023-08-12T10:50:16 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691817616892" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@fbd1f6]" started-at="2023-08-15T11:26:54 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-15T11:26:55 IST" duration-ms="1333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RohitS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IPL5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_Login()[pri:0, instance:testCases.TC_002_CheckLogin@45c7e403]" started-at="2023-08-12T10:50:16 IST" name="test_Login" finished-at="2023-08-12T10:50:16 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@fbd1f6]" started-at="2023-08-15T11:26:55 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-15T11:26:56 IST" duration-ms="1009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Halwa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Puri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_Login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_CheckLogin@45c7e403]" started-at="2023-08-12T10:50:16 IST" name="tearDown" finished-at="2023-08-12T10:50:16 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@fbd1f6]" started-at="2023-08-15T11:26:56 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-15T11:26:58 IST" duration-ms="2357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhoti]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_002_CheckLogin -->
-      <class name="testCases.TC_003_PlaceOrder">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_003_PlaceOrder@1ff4931d]" started-at="2023-08-12T10:50:16 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1691817616904" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@fbd1f6]" started-at="2023-08-15T11:26:58 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-15T11:27:00 IST" duration-ms="2159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kaala]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jamun]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="test_Login()[pri:0, instance:testCases.TC_003_PlaceOrder@1ff4931d]" started-at="2023-08-12T10:50:16 IST" name="test_Login" finished-at="2023-08-12T10:50:16 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\gaura\eclipse-workspace\DemoBlaze\default_testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@fbd1f6]" started-at="2023-08-15T11:27:00 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-15T11:27:01 IST" duration-ms="956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Captain]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deadpool]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_Login -->
-        <test-method signature="addToCart()[pri:0, instance:testCases.TC_003_PlaceOrder@1ff4931d]" started-at="2023-08-12T10:50:16 IST" name="addToCart" finished-at="2023-08-12T10:50:16 IST" depends-on-methods="testCases.TC_003_PlaceOrder.test_Login" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method testCases.TC_003_PlaceOrder.addToCart() on instance testCases.TC_003_PlaceOrder@1ff4931d depends on not successfully finished methods 
-[testCases.TC_003_PlaceOrder.test_Login() on instance testCases.TC_003_PlaceOrder@1ff4931d]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method testCases.TC_003_PlaceOrder.addToCart() on instance testCases.TC_003_PlaceOrder@1ff4931d depends on not successfully finished methods 
-[testCases.TC_003_PlaceOrder.test_Login() on instance testCases.TC_003_PlaceOrder@1ff4931d]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method signature="test_dataDrivenLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@fbd1f6]" started-at="2023-08-15T11:27:01 IST" name="test_dataDrivenLogin" data-provider="LoginData" finished-at="2023-08-15T11:27:04 IST" duration-ms="2542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kaaju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Katli]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method signature="placeOrder()[pri:0, instance:testCases.TC_003_PlaceOrder@1ff4931d]" started-at="2023-08-12T10:50:16 IST" name="placeOrder" finished-at="2023-08-12T10:50:16 IST" depends-on-methods="testCases.TC_003_PlaceOrder.addToCart, testCases.TC_003_PlaceOrder.test_Login" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method testCases.TC_003_PlaceOrder.placeOrder() on instance testCases.TC_003_PlaceOrder@1ff4931d depends on not successfully finished methods 
-[testCases.TC_003_PlaceOrder.addToCart() on instance testCases.TC_003_PlaceOrder@1ff4931d
-testCases.TC_003_PlaceOrder.test_Login() on instance testCases.TC_003_PlaceOrder@1ff4931d]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method testCases.TC_003_PlaceOrder.placeOrder() on instance testCases.TC_003_PlaceOrder@1ff4931d depends on not successfully finished methods 
-[testCases.TC_003_PlaceOrder.addToCart() on instance testCases.TC_003_PlaceOrder@1ff4931d
-testCases.TC_003_PlaceOrder.test_Login() on instance testCases.TC_003_PlaceOrder@1ff4931d]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- placeOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_PlaceOrder@1ff4931d]" started-at="2023-08-12T10:50:16 IST" name="tearDown" finished-at="2023-08-12T10:50:16 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- test_dataDrivenLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_004a_DataDrivenLogin2@fbd1f6]" started-at="2023-08-15T11:27:04 IST" name="tearDown" finished-at="2023-08-15T11:27:04 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_003_PlaceOrder -->
-    </test> <!-- DemoBlazeTest -->
+      </class> <!-- testCases.TC_004a_DataDrivenLogin2 -->
+    </test> <!-- DataDrivenTest -->
   </suite> <!-- DemoBlazeSuite -->
 </testng-results>
